@@ -13,11 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /*
-        // Question1
-        print("abc".moveCharacter(28))
-         */
-        
         
     }
 }

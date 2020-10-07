@@ -12,6 +12,9 @@
 		CF3832DC252E0340002EFD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3832DB252E0340002EFD78 /* Assets.xcassets */; };
 		CF3832DF252E0340002EFD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3832DD252E0340002EFD78 /* LaunchScreen.storyboard */; };
 		CF3832E8252E0457002EFD78 /* Question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3832E7252E0457002EFD78 /* Question1.swift */; };
+		CF66A572252E16570007BEA9 /* ShoppingTrolleyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66A571252E16570007BEA9 /* ShoppingTrolleyModel.swift */; };
+		CF66A574252E166B0007BEA9 /* ShoppingTrolleyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66A573252E166B0007BEA9 /* ShoppingTrolleyView.swift */; };
+		CF66A576252E16720007BEA9 /* ShoppingTrolley.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66A575252E16720007BEA9 /* ShoppingTrolley.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CF3832DE252E0340002EFD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF3832E0252E0340002EFD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF3832E7252E0457002EFD78 /* Question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1.swift; sourceTree = "<group>"; };
+		CF66A571252E16570007BEA9 /* ShoppingTrolleyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingTrolleyModel.swift; sourceTree = "<group>"; };
+		CF66A573252E166B0007BEA9 /* ShoppingTrolleyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTrolleyView.swift; sourceTree = "<group>"; };
+		CF66A575252E16720007BEA9 /* ShoppingTrolley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTrolley.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +74,27 @@
 		CF3832E6252E043F002EFD78 /* Question2 */ = {
 			isa = PBXGroup;
 			children = (
+				CF66A577252E2C350007BEA9 /* Carousel */,
+				CF66A570252E16570007BEA9 /* ShoppingTrolley */,
 			);
 			path = Question2;
+			sourceTree = "<group>";
+		};
+		CF66A570252E16570007BEA9 /* ShoppingTrolley */ = {
+			isa = PBXGroup;
+			children = (
+				CF66A571252E16570007BEA9 /* ShoppingTrolleyModel.swift */,
+				CF66A573252E166B0007BEA9 /* ShoppingTrolleyView.swift */,
+				CF66A575252E16720007BEA9 /* ShoppingTrolley.swift */,
+			);
+			path = ShoppingTrolley;
+			sourceTree = "<group>";
+		};
+		CF66A577252E2C350007BEA9 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Carousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF66A572252E16570007BEA9 /* ShoppingTrolleyModel.swift in Sources */,
+				CF66A576252E16720007BEA9 /* ShoppingTrolley.swift in Sources */,
 				CF3832D7252E033C002EFD78 /* ViewController.swift in Sources */,
+				CF66A574252E166B0007BEA9 /* ShoppingTrolleyView.swift in Sources */,
 				CF3832E8252E0457002EFD78 /* Question1.swift in Sources */,
 				CF3832D3252E033C002EFD78 /* AppDelegate.swift in Sources */,
 			);
